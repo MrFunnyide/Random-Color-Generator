@@ -1,0 +1,33 @@
+.wrapper button {
+	background: none;
+	border: 3px solid #fff;
+	padding: 10px 20px;  /*top and bottom paddings are 10px
+  right and left paddings are 20px*/
+  	color: #fff;
+  	font-size: 2.25rem;
+  	margin-top: 10px;
+  	outline: none;
+  	cursor: pointer;
+}
+
+body {
+	height: 100vh;
+	background-color: #1abc9c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper {
+	align-self: center;
+}
+
+.wrapper span,
+.wrapper button {
+	display: block;
+}
+.wrapper span {
+	color: #fff;
+	font-size: 3.75rem;
+	text-transform: uppercase;
+}
